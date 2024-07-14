@@ -110,7 +110,19 @@ export const BentoGridItem = ({
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               <div className="flex flex-col gap-3 lg:gap-8">
-                {["Za tgeed GG", "Wp mp orj irne end, Zeel ogno avna geel"].map(
+                {["Авлага худалдан авалт ", ""].map((item) => (
+                  <span
+                    key={item}
+                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                  >
+                    {item}
+                  </span>
+                ))}
+                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
+              </div>
+              <div className="flex flex-col gap-3 lg:gap-8">
+                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
+                {["Факторинг", "үйлчилгээ", "бүх төрлийн худалдан авалт "].map(
                   (item) => (
                     <span
                       key={item}
@@ -120,22 +132,6 @@ export const BentoGridItem = ({
                     </span>
                   )
                 )}
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
-              </div>
-              <div className="flex flex-col gap-3 lg:gap-8">
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
-                {[
-                  "Cs2 toglolt is real",
-                  "Global offensive",
-                  "Zeel ogno avna geel",
-                ].map((item) => (
-                  <span
-                    key={item}
-                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                  >
-                    {item}
-                  </span>
-                ))}
               </div>
             </div>
           )}
@@ -155,7 +151,9 @@ export const BentoGridItem = ({
                 />
               </div>
               <MagicButton
-                title={copied ? "Email amjilttai huulagdlaa" : "Email huulah"}
+                title={
+                  copied ? "E-mail Амжилттай хуулагдлаа" : "E-mail хуулах "
+                }
                 icon={<IoCopyOutline />}
                 position="left"
                 otherClasses="!bg-[#161a31]"

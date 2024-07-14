@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Бизнесийн Зээл ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Шуурхай Зээл",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +28,9 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Факторын үйлчилгээ",
+    description:
+      "Бид бүх төрлийн авлага худалдан авалт буюу Факторингийн үйлчилгээг олгож байна",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Автомашин Барьцаалсан Шуурхай Зээл",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,8 +50,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Бүх төрлийн уул уурхайн машин механизм барьцаалсан зээл ",
+    description: "Шуурхай Зээл ",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +60,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Бидэнтэй холбогдон түргэн шуурхай зээл авмаар байна уу ?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,68 +73,68 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "ОНЦГОЙ САНАЛ",
+    des: "Харилцагч танд 2023 оны Nissan Patrol маркын автомашиныг бага хүүтэй, урт хугацаатай төлбөрийн уян хатан нөхцөлтэй зээлээр авах алтан боломжыг санал болгож байна.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "https://www.facebook.com/khutult.nomgon",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "АВТОМАШИН БАРЬЦААЛСАН ШУУРХАЙ ЗЭЭЛ",
+    des: "20 минутад шийдвэрлэх боломжтой том болон дунд оврын суудлын машин /ЖИЙП/ барьцаалсан шуурхай зээлийг харилцагч танд санал болгож байна",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    link: "https://www.facebook.com/khutult.nomgon",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "БИЗНЕСЭЭ БИДЭНТЭЙ БҮТЭЭ",
+    des: "Бизнес эрхлэгч та бизнесээ өргөжүүлэх хүсэлтэй байгаа бол 7200-6666 дугаараас хамгийн шуурхай бизнес зээлийн талаарх мэдээлэл аваарай.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    link: "https://www.facebook.com/khutult.nomgon",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "МАШИН МЕХАНИЗМЫН ЗЭЭЛИЙН ТӨВ",
+    des: "ХӨТӨЛТНОМГОН ББСБ нь Барилга, Уул уурхайн бүх төрлийн хүнд даацын машин механизм барьцаалсан орлого нотлохгүй ШУУРХАЙ ЗЭЭЛ-г олгож байна.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "https://www.facebook.com/khutult.nomgon",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Бидний санхүүгийн хэрэгцээг ойлгож, үргэлж бидэнтэй хамтран ажиллаж буйд баярлалаа. Таны мэргэжлийн үйлчилгээ, тусламж бидний амжилттай үйл ажиллагааны гол үндэс болж байна.",
+    name: "Түвшинтөгс Цогтбаатар",
+    title: "Хөтөлтномгон ББСБ үйлчлүүлэгч ",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Банк бус санхүүгийн байгууллагаас авсан үйлчилгээ маань бидний бизнесийн өсөлтөд чухал үүрэг гүйцэтгэсэн. Таныг үргэлж дэмжиж, тусалдагт талархаж байна.",
+    name: "Ганбат Ичинхорлоо",
+    title: "Хөтөлтномгон ББСБ үйлчлүүлэгч",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Санхүүгийн зөвлөгөө, хурдан үйлчилгээнийхээ тулд баярлалаа. Бидний хамтын ажиллагаа үргэлжид хөгжилтэй, үр дүнтэй байх болно гэдэгт итгэж байна.",
+    name: "Эрдэнэбулган Төртогтох ",
+    title: "Хөтөлтномгон ББСБ үйлчлүүлэгч",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Танай байгууллагаас авсан санхүүгийн дэмжлэг бидний төлөвлөгөөг хэрэгжүүлэхэд ихээхэн тусалсан. Мэргэжлийн үйлчилгээнд тань талархаж байна!",
+    name: "Түмэнбаяр Чинтогтох ",
+    title: "Хөтөлтномгон ББСБ үйлчлүүлэгч",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Санхүүгийн асуудлаа шийдвэрлэхэд үзүүлсэн тусламж, дэмжлэгийнхээ төлөө баярлалаа. Таны мэргэжлийн хандлага бидний амжилтанд шийдвэрлэх үүрэг гүйцэтгэсэн.",
+    name: "Намуун Хүдэр ",
+    title: "Хөтөлтномгон ББСБ үйлчлүүлэгч",
   },
 ];
 
@@ -173,29 +174,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "БИЗНЕСИЙН ЗЭЭЛИЙН ШУГАМ",
+    desc: "ХАМГИЙН БАГА ХҮҮ, Хэдийд ч хаанаас ч хүссэн зээлээ авах, Хүүгийн зардлаа удирдах ",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "ОРЛОГО НОТЛОХГҮЙ",
+    desc: "Бид таны хүчирхэг техникийг 24 цагийн харуул хамгаалалт бүхий өөрийн дулаан зогсоолд үнэ төлбөргүй, найдвартай хадгална.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "БҮХ ТӨРЛИЙН ТӨЛБӨРИЙН БАТАЛГАА",
+    desc: "Энэхүү үйлчилгээ нь гадаад, дотоодын худалдаа, үйлдвэрлэл үйлчилгээ эрхлэгчдэд бараа, ажил, үйлчилгээ худалдах / худалдан авах гэрээ байгуулахдаа манай байгууллагаас (төлбөрийн баталгаа, урьдчилгаа төлбөрийн баталгаа, гүйцэтгэлийн баталгаа)- баталгаа гаргуулснаар мөнгө урсгалын эргэц нэмэгдэх нөөц ашиглалт сайжрах гэх мэт давуу талуудыг харилцаг тань бий болгох болно.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "ИТГЭЛЦЛИЙН ҮЙЛЧИЛГЭЭ",
+    desc: "Таны мөнгөн хөрөнгийг найдвартай, өндөр өгөөжтэй, хөрөнгө оруулалтын бүтээгдэхүүнийг танд санал болгож байна.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

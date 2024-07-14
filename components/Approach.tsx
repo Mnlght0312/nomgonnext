@@ -13,9 +13,9 @@ const Approach = () => {
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
-          title="Sheetal is Nisha"
+          title="Мод тарих өдөрлөг"
           icon={<AceternityIcon order="Ажил 1" />}
-          description="Gg wp"
+          description="Нийгмийн хариуцлагын хүрээнд мод тарих өдөрлөгт манай хамт олон оролцлоо."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -23,9 +23,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Nisha is Munni"
+          title="ДУЛААХАН ӨВӨЛЖЬЕ"
           icon={<AceternityIcon order="Ажил 2" />}
-          description="Ajliin description"
+          description="Хөтөлт Номгон ББСБ-нь нийгмийн хариуцлагын хүрээнд ДУЛААХАН ӨВӨЛЖЬЕ аянд нэгдэж, ДэлхийнЗөн ОУБ-тай хамтран зорилтот бүлгийн 20 хүүхдэд дулаан гутал, хувцас бэлэглэлээ. "
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -40,9 +40,9 @@ const Approach = () => {
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
         <Card
-          title="Munni is Aditi"
+          title="1000 Цүнх, 1000 Мөрөөдөл"
           icon={<AceternityIcon order="Ажил 3" />}
-          description="Ajliin description 3"
+          description="Нийгмийн хариуцлагын хүрээнд Банк бус санхүүгийн байгууллагын холбоо, Нийслэлийн засаг даргын тамгын газартай хамтран зохион байгуулж буй 1000 цүнх зорилтот аянд нэгдэж нийгмийн хүндрэлтэй нөхцөлд амьдарч байгаа бяцхан хүүхдүүддээ банк бус санхүүгийн байгууллагынхаа зүгээс цүнх бэлэглэлээ."
         >
           <CanvasRevealEffect
             animationSpeed={3}
