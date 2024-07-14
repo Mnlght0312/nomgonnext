@@ -36,7 +36,7 @@ function Hero() {
           </p>
           <a href="#about">
             <MagicButton
-              title="Delgerengui"
+              title="Дэлгэрэнгүй"
               icon={<FaLocationArrow />}
               position="right"
             />
