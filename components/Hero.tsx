@@ -34,7 +34,7 @@ function Hero() {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             “Хөтөлтномгон ББСБ” ХХК-н харъяа мэндэлсэн дижитал бүтээгдэхүүн юм.
           </p>
-          <a href="#about">
+          <a href="https://www.facebook.com/khutult.nomgon">
             <MagicButton
               title="Дэлгэрэнгүй"
               icon={<FaLocationArrow />}
