@@ -31,6 +31,7 @@ function Grid() {
           )
         )}
       </BentoGrid>
+      <h1>Hi bitrches</h1>
     </section>
   );
 }
