@@ -1,8 +1,15 @@
 import React from "react";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 import { gridItems } from "@/data";
+import MagicButton from "./ui/MagicButton";
+import { FaLocationArrow } from "react-icons/fa";
 
 function Grid() {
+  const showPdf = () => {
+    return <iframe>
+
+    </iframe>
+  }
   return (
     <section id="about">
       <BentoGrid>
@@ -31,7 +38,13 @@ function Grid() {
           )
         )}
       </BentoGrid>
-      <h1>Hi bitrches</h1>
+      <a onClick={showPdf}>
+            <MagicButton
+              title="Дэлгэрэнгүй"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
+          </a>
     </section>
   );
 }
