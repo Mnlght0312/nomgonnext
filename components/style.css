@@ -1,0 +1,8 @@
+.slick-arrow {
+  font-size: 2rem;
+  color: orange !important;
+}
+
+.ant-carousel .slick-dots-bottom {
+  bottom: -30px !important;
+}
