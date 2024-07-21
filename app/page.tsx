@@ -10,6 +10,7 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 import Image from "next/image";
 import { FaHome } from "react-icons/fa";
+import News from "@/components/ui/News";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <AboutUs/>
         <Grid />
         <RecentProjects />
+        <News/>
         <Clients />
         <Experience />
         <Approach />
