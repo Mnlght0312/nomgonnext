@@ -1,6 +1,11 @@
 import React from "react";
 import MagicButton from "./ui/MagicButton";
-import { FaLocationArrow } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaLocationArrow,
+  FaMailBulk,
+  FaPhone,
+} from "react-icons/fa";
 import { socialMedia } from "@/data";
 import { profile } from "console";
 
@@ -22,36 +27,51 @@ function Footer() {
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Бидэнтэй яг одоо холбоо барин санхүүгийн хэрэгцээгээ шийдээрэй.
         </p>
-        <a href="mailto:khutultnomgon@gmail.com">
+        <a href="tel:+976 99113740">
           <MagicButton
             title="Бидэнтэй холбоо барих"
-            icon={<FaLocationArrow />}
+            icon={<FaPhone />}
             position="right"
           />
         </a>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light ">
-          Copyright © Хөтөлтномгон ББСБ{" "}
-        </p>
-        <p className="md:text-base text-sm md:font-normal font-light">
-          Хан-Уул дүүрэг, 3-р хороо, чингисийн өргөн чөлөө, 37Б-р байр ,
-          Ulaanbaatar, Mongolia{" "}
-        </p>
-        <p className="md:text-base text-sm md:font-normal font-light">
+      <div>
+        <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
+          <p className="md:text-base text-sm md:font-normal font-light p-5 ">
+            Copyright © Хөтөлтномгон ББСБ{" "}
+          </p>
+        </div>
+        <div className="">
+          <p className="md:text-base text-sm md:font-normal font-light flex flex-wrap gap-2 p-5 ">
+            <FaLocationArrow></FaLocationArrow>
+            Хан-Уул дүүрэг, 3-р хороо, чингисийн өргөн чөлөө, 37Б-р байр ,
+            Ulaanbaatar, Mongolia{" "}
+          </p>
+        </div>
+        <p className="md:text-base text-sm md:font-normal font-light flex flex-wrap gap-2 p-5">
+          <FaPhone></FaPhone>
           7200 6666{" "}
         </p>
-        <p className="md:text-base text-sm md:font-normal font-light">
+        <p className="md:text-base text-sm md:font-normal font-light flex flex-wrap gap-2 p-5">
+          <FaMailBulk className=""></FaMailBulk>
           khutultnomgon@gmail.com{" "}
         </p>
-        <div className="flex items-center md:gap-3 gap-6">
+        <div className="flex items-center md:gap-3 gap-6 p-5">
           {socialMedia.map((profile) => (
-            <div
+            <a
               key={profile.id}
+              href="https://www.facebook.com/khutult.nomgon"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
-              <img src={profile.img} alt={profile.id.toString()} width={20} height={20} />
-            </div>
+              <img
+                src={profile.img}
+                alt={profile.id.toString()}
+                width={20}
+                height={20}
+              />
+            </a>
           ))}
         </div>
       </div>
