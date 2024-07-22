@@ -46,15 +46,17 @@ function Grid() {
           )
         )}
       </BentoGrid>
-      <div className="mb-8 text-center md: mt-8">
-        <MagicButton
-          title="Зээлийн нөхцөл харах"
-          icon={
-            show ? <IoIosArrowUp size={18} /> : <IoIosArrowDown size={18} />
-          }
-          position="right"
-          handleClick={showConditions}
-        />
+      <div className="mb-8 text-center md: mt-8 bg-yellow-500">
+        <div className="flex justify-center pb-10">
+          <MagicButton
+            title="Зээлийн нөхцөл харах"
+            icon={
+              show ? <IoIosArrowUp size={18} /> : <IoIosArrowDown size={18} />
+            }
+            position="right"
+            handleClick={showConditions}
+          />
+        </div>
       </div>
       {show && (
         <div className="sm:w-[500px] sm:h-[400px] md:w-[700px] md:h-[600px] xl:w-[700px] xl:h-[600px] mx-auto">
