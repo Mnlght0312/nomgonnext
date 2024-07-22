@@ -6,7 +6,7 @@ import { FaLocationArrow } from "react-icons/fa";
 
 function RecentProjects() {
   return (
-    <div className="py-20" id="projects">
+    <div className="py-20 mt-20" id="projects">
       <h1 className="heading">
         Бидний санал болгож буй{" "}
         <span className="text-yellow-500">Онцлох Зээлүүд</span>

@@ -57,12 +57,12 @@ function Grid() {
         />
       </div>
       {show && (
-        <div className="w-[700px] mx-auto">
+        <div className="sm:w-[500px] sm:h-[400px] md:w-[700px] md:h-[600px] xl:w-[700px] xl:h-[600px] mx-auto">
           <Carousel infinite={false} arrows dotPosition="bottom">
             {imagePaths.map((imagePath, index) => (
               <div key={index} className="flex justify-center items-center">
                 <img
-                  className="carouselImg w-full h-[700px] sm:w-full sm:h-[400px] md:h-[500px] lg:h-[600px] object-cover"
+                  className="carouselImg object-cover mx-auto"
                   src={imagePath}
                   alt={`Slide ${index + 1}`}
                 />
