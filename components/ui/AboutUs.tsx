@@ -105,7 +105,7 @@ function AboutUs() {
           </p>
         </div>
       </div>
-      <div className="py-10 md:py-20 mt-10 md:mt-20 px-4 md:px-0 max-w-screen-xl mx-auto">
+      {/* <div className="py-10 md:py-20 mt-10 md:mt-20 px-4 md:px-0 max-w-screen-xl mx-auto">
         <h1 className="text-2xl md:text-4xl font-bold text-center mb-6 text-yellow-500">
           Удирдлагууд
         </h1>
@@ -153,7 +153,7 @@ function AboutUs() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

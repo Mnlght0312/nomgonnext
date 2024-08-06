@@ -42,17 +42,19 @@ function Footer() {
           </p>
         </div>
         <div className="">
-          <p className="md:text-base text-sm md:font-normal font-light flex flex-wrap gap-2 p-5 ">
-            <FaLocationArrow></FaLocationArrow>
-            Хан-Уул дүүрэг, 3-р хороо, чингисийн өргөн чөлөө, 37Б-р байр ,
-            Ulaanbaatar, Mongolia{" "}
-          </p>
+          <div className="md:text-base text-sm md:font-normal font-light flex gap-2 p-5 ">
+            <FaLocationArrow />
+            <div className="pb-[2px]">
+              <p>Салбар 1: Хан-Уул дүүрэг, 3-р хороо, чингисийн өргөн чөлөө, 37Б-р байр</p>
+              <p>Салбар 2: Сонгинохайрхан дүүрэн, 20-р хороо, NB center, 2 давхар </p>
+            </div>
+          </div>
         </div>
-        <p className="md:text-base text-sm md:font-normal font-light flex flex-wrap gap-2 p-5">
+        <p className="md:text-base text-sm md:font-normal font-light flex flex-wrap gap-2 p-5 items-center">
           <FaPhone></FaPhone>
           7200 6666{" "}
         </p>
-        <p className="md:text-base text-sm md:font-normal font-light flex flex-wrap gap-2 p-5">
+        <p className="md:text-base text-sm md:font-normal font-light flex flex-wrap gap-2 p-5 items-center">
           <FaMailBulk className=""></FaMailBulk>
           khutultnomgon@gmail.com{" "}
         </p>
