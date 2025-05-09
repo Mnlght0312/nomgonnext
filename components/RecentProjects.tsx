@@ -1,3 +1,6 @@
+"use client";
+
+
 import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/3d-pin";
