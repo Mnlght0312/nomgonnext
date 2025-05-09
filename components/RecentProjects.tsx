@@ -9,7 +9,7 @@ function RecentProjects() {
     <div className="py-20 mt-20" id="projects">
       <h1 className="heading">
         Бидний санал болгож буй{" "}
-        <span className="text-yellow-500">Онцлох Зээлүүд</span>
+        <span className="text-yellow-500">Онцлох Бүтээгдэхүүнүүд</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map(({ id, title, des, img, iconLists, link }) => (

@@ -103,8 +103,33 @@ function AboutUs() {
             шугам гэх зэрэг бүтээгдэхүүн үйлчилгээнүүдийг үе шаттай нэвтрүүлсээр
             байна.
           </p>
+          
         </div>
       </div>
+      <div className="flex flex-col md:flex-row gap-6 mt-5 md:mt-10 mb-10 md:mb-20">
+  {/* Эрхэм зорилго */}
+  <div className="flex-1">
+    <h2 className="text-2xl md:text-4xl font-bold text-center mb-6">
+      Эрхэм <span className="text-yellow-500">Зорилго</span>
+    </h2>
+    <p className="text-justify text-sm md:text-base max-w-xl mx-auto">
+      Санхүүгийн бүтээгдэхүүн үйлчилгээгээр дамжуулан харилцагч,
+       хамтран ажиллагчдыг эерэг, хүчирхэг нийгэм, эдийн засаг цогцлоход 
+      тулах цэг нь болж ажиллах .
+    </p>
+  </div>
+
+  {/* Үнэт зүйлс */}
+  <div className="flex-1">
+    <h2 className="text-2xl md:text-4xl font-bold text-center mb-6">
+      Үнэт <span className="text-yellow-500">Зүйлс</span>
+    </h2>
+    <p className="text-justify text-sm md:text-base max-w-xl mx-auto">
+      Бидний үнэт зүйл бол ёс зүйтэй үнэнч, шударга хамт олон болон  Харилцагч, үйлчлүүлэгчийн хамтын ажиллагаа юм.
+    </p>
+  </div>
+</div>
+
       {/* <div className="py-10 md:py-20 mt-10 md:mt-20 px-4 md:px-0 max-w-screen-xl mx-auto">
         <h1 className="text-2xl md:text-4xl font-bold text-center mb-6 text-yellow-500">
           Удирдлагууд
