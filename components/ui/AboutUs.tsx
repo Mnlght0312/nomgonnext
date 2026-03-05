@@ -119,16 +119,74 @@ function AboutUs() {
     </p>
   </div>
 
+  
+   
+</div>
+<div className="flex flex-col md:flex-row gap-6 mt-5 md:mt-10 mb-10 md:mb-20">
+  {/* Алсын хараа */}
+  <div className="flex-1">
+    <h2 className="text-2xl md:text-4xl font-bold text-center mb-6">
+      Алсын  <span className="text-yellow-500">Хараа</span>
+    </h2>
+    <p className="text-justify text-sm md:text-base max-w-xl mx-auto">
+      Технологи инновацийн шилдэг шийдэл шингээсэн санхүүгийн бүтээгдэхүүн үйлчилгээгээр үндэсний тэргүүлэгч санхүүгийн байгууллага болох.
+    </p>
+  </div>
+
   {/* Үнэт зүйлс */}
   <div className="flex-1">
     <h2 className="text-2xl md:text-4xl font-bold text-center mb-6">
       Үнэт <span className="text-yellow-500">Зүйлс</span>
     </h2>
     <p className="text-justify text-sm md:text-base max-w-xl mx-auto">
-      Бидний үнэт зүйл бол ёс зүйтэй үнэнч, шударга хамт олон болон  Харилцагч, үйлчлүүлэгчийн хамтын ажиллагаа юм.
+      1- Хариуцлага ба мэргэжлийн ёс зүй. <br />
+      2- Эерэг хандлага, гал эрмэлзэл бүхий хамт олон.<br />
+      3- Харилцагч, үйлчлүүлэгчдийн хамтын ажиллагаа.<br />
+      4- Чанарт тэмүүлсэн тасралтгүй сайжруулалт.
     </p>
   </div>
 </div>
+{/* Чанарын бодлого */}
+      <div className="py-10 md:py-16 px-4 md:px-0 max-w-screen-xl mx-auto">
+        <h2 className="text-2xl md:text-4xl font-bold text-center mb-6">
+          Хөтөлтномгон ББСБ-ийн{" "}
+          <span className="text-yellow-500">чанарын бодлого</span>
+        </h2>
+
+        <p className="text-justify text-sm md:text-base max-w-4xl mx-auto mb-6">
+          Хөтөлтномгон ББСБ ХК-ийн чанарын бодлого нь харилцагчид,
+          оролцогч талуудын хэрэгцээ, хүлээлтийг бүрэн хангаад зогсохгүй
+          давж биелүүлэх хүрээнд дараах бодлогуудыг баримтална үүнд:
+        </p>
+
+        <ol className="text-justify text-sm md:text-base max-w-4xl mx-auto list-decimal pl-6 space-y-3">
+          <li>
+            Харилцагчдынхаа хувьсан өөрчлөгдөх хэрэгцээ шаардлагад нийцсэн
+            санхүүгийн бүтээгдэхүүн үйлчилгээг дэвшилтэт технологи ашиглан
+            автоматжуулалтад суурилан ажиллах.
+          </li>
+
+          <li>
+            ISO 9001:2015 болон ISO 27001:2015 стандарт шаардлагуудыг
+            хангасан чанарын удирдлагын тогтолцоог бий болгоно.
+          </li>
+
+          <li>
+            Ажилтнуудынхаа мэдлэг чадварыг хөгжүүлж бүтээмжийг
+            дээшлүүлнэ.
+          </li>
+
+          <li>
+            Нийт ажилтнууд энэхүү чанарын бодлогыг мөрдөж байгууллагын
+            чанарын соёлыг хөгжүүлнэ.
+          </li>
+
+          <li>
+            Тасралтгүй сайжруулалт нь байгууллагын хөгжил амжилтын
+            үндэс байна.
+          </li>
+        </ol>
+      </div>
 
       {/* <div className="py-10 md:py-20 mt-10 md:mt-20 px-4 md:px-0 max-w-screen-xl mx-auto">
         <h1 className="text-2xl md:text-4xl font-bold text-center mb-6 text-yellow-500">
