@@ -1,31 +1,36 @@
 "use client";
-import Approach from "@/components/Approach";
-import Clients from "@/components/Clients";
-import Experience from "@/components/Experience";
-import Footer from "@/components/Footer";
-import Grid from "@/components/Grid";
-import Hero from "@/components/Hero";
-import AboutUs from "@/components/ui/AboutUs";
-import RecentProjects from "@/components/RecentProjects";
+
+import dynamic from "next/dynamic";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
-import Image from "next/image";
-import { FaHome } from "react-icons/fa";
-import News from "@/components/ui/News";
+
+// normal components that are safe
+import Footer from "@/components/Footer";
+import AboutUs from "@/components/ui/AboutUs";
+
+// dynamically loaded (client-only) components — likely to use document/window
+const Hero = dynamic(() => import("@/components/Hero"), { ssr: false });
+const Grid = dynamic(() => import("@/components/Grid"), { ssr: false });
+const RecentProjects = dynamic(() => import("@/components/RecentProjects"), { ssr: false });
+const News = dynamic(() => import("@/components/ui/News"), { ssr: false });
+const Clients = dynamic(() => import("@/components/Clients"), { ssr: false });
+const Experience = dynamic(() => import("@/components/Experience"), { ssr: false });
+const Approach = dynamic(() => import("@/components/Approach"), { ssr: false });
 
 export default function Home() {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
-        <Hero />
 
+        <Hero />
         <Grid />
         <RecentProjects />
         <News />
         <Clients />
         <Experience />
         <Approach />
+
         <AboutUs />
         <Footer />
       </div>
